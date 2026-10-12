@@ -1,0 +1,3 @@
+Model,Final Test Accuracy (%)
+MLP From Scratch,40.37
+Pretrained ResNet18,76.43

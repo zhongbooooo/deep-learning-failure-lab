@@ -1,0 +1,4 @@
+Optimizer,Learning Rate,Final Training Loss,Test Accuracy (%)
+SGD,0.01,1.430507564611435,48.78
+Momentum,0.001,1.4374270484018326,48.13
+Adam,0.0003,1.4557736877632141,47.32

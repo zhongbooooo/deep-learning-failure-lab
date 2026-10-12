@@ -1,0 +1,6 @@
+Method,Final Train Accuracy (%),Final Test Accuracy (%)
+No Regularization,54.2,40.37
+Dropout 0.5,20.6,24.47
+Dropout 0.2,37.26,35.59
+Weight Decay,53.38,39.51
+Data Augmentation,35.82,37.83

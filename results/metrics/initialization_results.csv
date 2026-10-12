@@ -1,0 +1,5 @@
+Initialization,Final Training Loss,Test Accuracy (%)
+Baseline,1.4589160200929643,48.01
+Zero,2.3029079188537596,10.0
+Xavier,1.4279372819042206,47.32
+He,1.4383226186084748,48.23
