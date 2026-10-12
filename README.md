@@ -1,3 +1,4 @@
+[README.md](https://github.com/user-attachments/files/33356108/README.md)
 # Deep Learning Failure Lab
 
 A PyTorch-based experimental project for diagnosing, visualizing, and fixing common neural network training failures on CIFAR-10.
@@ -165,6 +166,8 @@ For a 10-class classification problem, random guessing produces a cross-entropy 
 
 This shows that the model was effectively unable to learn meaningful features.
 
+![Initialization Comparison](results/figures/initialization_comparison.png)
+
 
 
 ---
@@ -241,6 +244,8 @@ Final test accuracy:
 48.23%
 ```
 
+![Gradient Norm Comparison](results/figures/gradient_norm_comparison.png)
+
 
 
 ---
@@ -272,6 +277,8 @@ All models used:
 - He initialization
 - the same five-epoch training duration
 
+![Optimizer Comparison](results/figures/optimizer_comparison.png)
+
 
 
 ---
@@ -283,6 +290,8 @@ All models used:
 | SGD       | 0.01          | 1.4305              | 48.78%        |
 | Momentum  | 0.001         | 1.4374              | 48.13%        |
 | Adam      | 0.0003        | 1.4558              | 47.32%        |
+
+![Optimizer Accuracy](results/figures/optimizer_accuracy.png)
 
 
 
@@ -354,6 +363,8 @@ Final test accuracy increased to:
 48.13%
 ```
 
+![Momentum Learning Rate Sensitivity](results/figures/momentum_lr_sensitivity.png)
+
 
 
 ---
@@ -408,9 +419,13 @@ Final test accuracy:
 
 This created a clear generalization gap.
 
+![Overfitting Accuracy](results/figures/overfitting_accuracy.png)
+
 
 
 Training loss continued decreasing while test loss stopped improving consistently.
+
+![Overfitting Loss](results/figures/overfitting_loss.png)
 
 
 
@@ -447,6 +462,8 @@ Several regularization strategies were evaluated:
 - Weight Decay
 - Data Augmentation
 - Early Stopping
+
+![Regularization Comparison](results/figures/regularization_comparison.png)
 
 
 
@@ -592,6 +609,8 @@ Epoch 14
 
 The best model state was saved and restored after training.
 
+![Early Stopping](results/figures/early_stopping.png)
+
 
 
 The important behavior was:
@@ -698,9 +717,13 @@ Final test accuracy:
 76.43%
 ```
 
+![Transfer Learning Accuracy](results/figures/transfer_learning_accuracy.png)
+
 
 
 Training and test loss both decreased consistently:
+
+![Transfer Learning Loss](results/figures/transfer_learning_loss.png)
 
 
 
@@ -709,6 +732,8 @@ Training and test loss both decreased consistently:
 # From Scratch vs Transfer Learning
 
 The strongest result in the project is the difference between the MLP trained from scratch and the pretrained ResNet18.
+
+![From Scratch vs Transfer Learning](results/figures/scratch_vs_transfer.png)
 
 
 
